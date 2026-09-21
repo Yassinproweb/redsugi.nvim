@@ -1,21 +1,13 @@
 -- Color palette for Redsugi Neovim theme.
 -- Ruby on Rails-inspired palette.
---
--- Brand anchors:
---   Rails red     #D30001  (Rails logo red)   -> accent, keyword, storage
---   Ruby red      #CC342D  (Ruby logo red)    -> accent_warm
---   Ruby crimson  #9B111E  (gemstone red)     -> accent_dim
--- Everything else (backgrounds, greens, blues, etc.) is tuned to sit
--- comfortably next to those reds: warm-tinted neutrals, sage green strings,
--- Ruby-symbol teal, and dusty steel/mauve secondaries. No yellow is rendered.
 
 local M = {}
 
 -- UI colors are shared between variants.
 local ui = {
   -- Backgrounds (warm near-blacks, slightly tinted toward Rails red)
-  bg              = "#181414",
-  bg_dark         = "#141111",
+  bg              = "#050101",
+  bg_dark         = "#090303",
   bg_darker       = "#100e0e",
   bg_alt          = "#1b1818",
   bg_line         = "#1e1a1a",
@@ -44,15 +36,15 @@ local ui = {
 
   -- Foregrounds (warm off-white)
   fg              = "#e8e2de",
-  fg_dim          = "#cbc3bf",
-  fg_dim2         = "#9a908c",
-  fg_mute         = "#786c6a",
+  fg_dim          = "#cbbfbf",
+  fg_dim2         = "#9a8c8c",
+  fg_mute         = "#786a6a",
   fg_gutter       = "#4a4242",
-  fg_line_active  = "#ee5a4f",
+  fg_line_active  = "#ee4f4f",
   fg_invisible    = "#4a4141",
 
   -- Ruby on Rails red accents
-  cursor          = "#e8302f",
+  cursor          = "#e82f2f",
   accent          = "#d30001", -- Rails red
   accent_dim      = "#9b111e", -- Ruby crimson
   accent_hint     = "#ee5a4f",
@@ -115,25 +107,25 @@ local syntax_dark = {
 -- Syntax colors for Redsugi Dark Flared.
 -- Ruby/Rails reds, crimson, and muted rose tones.
 local syntax_flared = {
-  default      = "#d8c8c4",
-  comment      = "#7a6a68",
-  string       = "#e0917c",
-  number       = "#ee5a4f",
-  keyword      = "#e8302f",
+  default      = "#e8c5cb",
+  comment      = "#7a4a48",
+  string       = "#e0715c",
+  number       = "#ee3a2f",
+  keyword      = "#e8102f",
   type         = "#8f9799",
-  annotation   = "#5fa39a",
+  annotation   = "#5f9aa3",
   invalid      = "#d30001",
-  punctuation  = "#a08280",
-  operator     = "#ee5a4f",
+  punctuation  = "#a06260",
+  operator     = "#ee4a5f",
   storage      = "#d30001",
-  self         = "#e8302f",
+  self         = "#e82f30",
   func         = "#8f9799",
-  constant     = "#ee5a4f",
-  support      = "#ee5a4f",
+  constant     = "#ee4f5a",
+  support      = "#ee4f5a",
   pointer      = "#f59090",
-  markup_raw   = "#e0917c",
+  markup_raw   = "#e07c91",
   markup_link  = "#8f9799",
-  diff_header  = "#8a7472",
+  diff_header  = "#8a7274",
   link         = "#94abc7",
 }
 
