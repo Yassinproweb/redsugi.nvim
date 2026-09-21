@@ -1,2 +1,2 @@
 -- Entry point for `:colorscheme kintsugi-flared`.
-require("kintsugi").load("flared")
+require("redsugi").load("flared")
