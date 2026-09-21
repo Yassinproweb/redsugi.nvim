@@ -9,11 +9,11 @@ Two variants, faithful to the originals.
 
 ### **redsugi-dark** — the calm, minimalist original with gilded keywords.
 
-<img width="438" height="525" margin="20px 0" alt="Screenshot 2026-04-25 at 18 15 38" src="https://github.com/user-attachments/assets/a4010e24-a111-41e4-a5c0-6f41eb07b1b3" />
+<img width="438" height="525" margin="20px 0" alt="Screenshot 2026-04-25 at 18 15 38" src="https://github.com/user-attachments/assets/a4010e24-a111-41e4-a5c0-6f41eb07b1b" />
 
 ### **redsugi-flared** — the warm autumn/campfire palette.
 
-<img width="438" height="525" margin="20px 0" alt="Screenshot 2026-04-25 at 18 15 17" src="https://github.com/user-attachments/assets/3e529989-3342-4906-9497-9bf29457995c" />
+<img width="438" height="525" margin="20px 0" alt="Screenshot 2026-04-25 at 18 15 17" src="https://github.com/user-attachments/assets/3e529989-3342-4906-9497-9bf29457995" />
 
 ## Install
 
