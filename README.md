@@ -21,7 +21,7 @@ Two variants, faithful to the originals.
 
 ```lua
 {
-  "metalelf0/redsugi-nvim",
+  "Yassinproweb/redsugi-nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -40,7 +40,7 @@ Two variants, faithful to the originals.
 ### packer.nvim
 
 ```lua
-use("metalelf0/redsugi-nvim")
+use("Yassinproweb/redsugi-nvim")
 vim.cmd.colorscheme("redsugi-dark")
 ```
 
